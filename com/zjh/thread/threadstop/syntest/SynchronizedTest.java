@@ -1,4 +1,4 @@
-package com.zjh.thread.threadstop.SynTest;
+package com.zjh.thread.threadstop.syntest;
 
 /**
  * @author: Scott
@@ -39,24 +39,24 @@ public class SynchronizedTest {
     /**    jstack
      * "t3" #13 prio=5 os_prio=31 tid=0x00007f858d834800 nid=0x5803 waiting for monitor entry [0x0000700002d37000]
      java.lang.Thread.State: BLOCKED (on object monitor)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
      - waiting to lock <0x000000076ada4b60> (a java.lang.Object)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
      at java.lang.Thread.run(Thread.java:748)
 
      "t2" #12 prio=5 os_prio=31 tid=0x00007f858d833800 nid=0xa703 waiting for monitor entry [0x0000700002c34000]
      java.lang.Thread.State: BLOCKED (on object monitor)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
      - waiting to lock <0x000000076ada4b60> (a java.lang.Object)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
      at java.lang.Thread.run(Thread.java:748)
 
      "t1" #11 prio=5 os_prio=31 tid=0x00007f858e837800 nid=0x5603 waiting on condition [0x0000700002b31000]
      java.lang.Thread.State: TIMED_WAITING (sleeping)
      at java.lang.Thread.sleep(Native Method)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest.lambda$main$0(SynchronizedTest.java:17)
      - locked <0x000000076ada4b60> (a java.lang.Object)
-     at com.zjh.thread.threadstop.SynTest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
+     at com.zjh.thread.threadstop.syntest.SynchronizedTest$$Lambda$1/931919113.run(Unknown Source)
      at java.lang.Thread.run(Thread.java:748)
      */
 
